@@ -1,7 +1,9 @@
-// sum(1, 1) = 1;
-// sum(1, 2) = 2 + 1;
-// sum(1, 3) = 3 + 2 + 1;
+/*
 
+sum(1, 3) = 1 + 2 + 3;      // 6
+sum(1, 3) = 1 + (1 + 1) + (1 + 1 + 1);
+
+*/
 function sum(fromN, toN) {
   if (fromN === toN) {
     return toN;
